@@ -7,18 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4F4D972A3BAEBA004E4112 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F4D962A3BAEBA004E4112 /* HeaderView.swift */; };
 		2CF9DA9C2A3B95B100CBA45B /* Am_I_Neuro_DiverseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DA9B2A3B95B100CBA45B /* Am_I_Neuro_DiverseApp.swift */; };
-		2CF9DA9E2A3B95B100CBA45B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DA9D2A3B95B100CBA45B /* ContentView.swift */; };
+		2CF9DA9E2A3B95B100CBA45B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DA9D2A3B95B100CBA45B /* MainView.swift */; };
 		2CF9DAA02A3B95B600CBA45B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF9DA9F2A3B95B600CBA45B /* Assets.xcassets */; };
 		2CF9DAA32A3B95B600CBA45B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF9DAA22A3B95B600CBA45B /* Preview Assets.xcassets */; };
+		2CF9DAAB2A3B965200CBA45B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2CF9DAAA2A3B965200CBA45B /* FirebaseAuth */; };
+		2CF9DAAD2A3B965200CBA45B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2CF9DAAC2A3B965200CBA45B /* FirebaseFirestore */; };
+		2CF9DAAF2A3B965200CBA45B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2CF9DAAE2A3B965200CBA45B /* FirebaseFirestoreSwift */; };
+		2CF9DAB12A3B979400CBA45B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CF9DAB02A3B979300CBA45B /* GoogleService-Info.plist */; };
+		2CF9DAB72A3B99BB00CBA45B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DAB62A3B99BB00CBA45B /* ProfileView.swift */; };
+		2CF9DAB92A3B9A6C00CBA45B /* SurveyChoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DAB82A3B9A6C00CBA45B /* SurveyChoicesView.swift */; };
+		2CF9DABB2A3B9AAF00CBA45B /* SurveyQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DABA2A3B9AAF00CBA45B /* SurveyQuestionsView.swift */; };
+		2CF9DABD2A3B9AE500CBA45B /* ResultsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DABC2A3B9AE500CBA45B /* ResultsListView.swift */; };
+		2CF9DABF2A3B9AF200CBA45B /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DABE2A3B9AF200CBA45B /* RegisterView.swift */; };
+		2CF9DAC12A3B9B3600CBA45B /* ResultsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DAC02A3B9B3600CBA45B /* ResultsDetailView.swift */; };
+		2CF9DAC32A3B9BC800CBA45B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DAC22A3B9BC800CBA45B /* LoginView.swift */; };
+		2CF9DAC52A3B9C2400CBA45B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DAC42A3B9C2400CBA45B /* User.swift */; };
+		2CF9DAC72A3B9C5000CBA45B /* SurveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DAC62A3B9C4F00CBA45B /* SurveyQuestion.swift */; };
+		2CF9DAC92A3B9C8B00CBA45B /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DAC82A3B9C8B00CBA45B /* MainViewViewModel.swift */; };
+		2CF9DACB2A3B9C9600CBA45B /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DACA2A3B9C9600CBA45B /* RegisterViewViewModel.swift */; };
+		2CF9DACD2A3B9CA000CBA45B /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DACC2A3B9CA000CBA45B /* LoginViewViewModel.swift */; };
+		2CF9DACF2A3B9CAD00CBA45B /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DACE2A3B9CAD00CBA45B /* ProfileViewViewModel.swift */; };
+		2CF9DAD12A3B9CBB00CBA45B /* SurveyChoicesViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DAD02A3B9CBB00CBA45B /* SurveyChoicesViewViewModel.swift */; };
+		2CF9DAD32A3B9CCB00CBA45B /* SurveyQuestionsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DAD22A3B9CCB00CBA45B /* SurveyQuestionsViewViewModel.swift */; };
+		2CF9DAD52A3B9CD700CBA45B /* ResultsListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DAD42A3B9CD700CBA45B /* ResultsListViewViewModel.swift */; };
+		2CF9DAD72A3B9CE400CBA45B /* ResultsDetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9DAD62A3B9CE400CBA45B /* ResultsDetailViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C4F4D962A3BAEBA004E4112 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		2CF9DA982A3B95B100CBA45B /* Am I Neuro-Diverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Am I Neuro-Diverse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF9DA9B2A3B95B100CBA45B /* Am_I_Neuro_DiverseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Am_I_Neuro_DiverseApp.swift; sourceTree = "<group>"; };
-		2CF9DA9D2A3B95B100CBA45B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CF9DA9D2A3B95B100CBA45B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2CF9DA9F2A3B95B600CBA45B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CF9DAA22A3B95B600CBA45B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CF9DAB02A3B979300CBA45B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2CF9DAB62A3B99BB00CBA45B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2CF9DAB82A3B9A6C00CBA45B /* SurveyChoicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyChoicesView.swift; sourceTree = "<group>"; };
+		2CF9DABA2A3B9AAF00CBA45B /* SurveyQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestionsView.swift; sourceTree = "<group>"; };
+		2CF9DABC2A3B9AE500CBA45B /* ResultsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsListView.swift; sourceTree = "<group>"; };
+		2CF9DABE2A3B9AF200CBA45B /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		2CF9DAC02A3B9B3600CBA45B /* ResultsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsDetailView.swift; sourceTree = "<group>"; };
+		2CF9DAC22A3B9BC800CBA45B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2CF9DAC42A3B9C2400CBA45B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2CF9DAC62A3B9C4F00CBA45B /* SurveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestion.swift; sourceTree = "<group>"; };
+		2CF9DAC82A3B9C8B00CBA45B /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		2CF9DACA2A3B9C9600CBA45B /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		2CF9DACC2A3B9CA000CBA45B /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		2CF9DACE2A3B9CAD00CBA45B /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
+		2CF9DAD02A3B9CBB00CBA45B /* SurveyChoicesViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyChoicesViewViewModel.swift; sourceTree = "<group>"; };
+		2CF9DAD22A3B9CCB00CBA45B /* SurveyQuestionsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestionsViewViewModel.swift; sourceTree = "<group>"; };
+		2CF9DAD42A3B9CD700CBA45B /* ResultsListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsListViewViewModel.swift; sourceTree = "<group>"; };
+		2CF9DAD62A3B9CE400CBA45B /* ResultsDetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsDetailViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF9DAAB2A3B965200CBA45B /* FirebaseAuth in Frameworks */,
+				2CF9DAAD2A3B965200CBA45B /* FirebaseFirestore in Frameworks */,
+				2CF9DAAF2A3B965200CBA45B /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +95,10 @@
 		2CF9DA9A2A3B95B100CBA45B /* Am I Neuro-Diverse */ = {
 			isa = PBXGroup;
 			children = (
-				2CF9DA9B2A3B95B100CBA45B /* Am_I_Neuro_DiverseApp.swift */,
-				2CF9DA9D2A3B95B100CBA45B /* ContentView.swift */,
-				2CF9DA9F2A3B95B600CBA45B /* Assets.xcassets */,
+				2CF9DAB52A3B98FB00CBA45B /* Other */,
+				2CF9DAB42A3B98E500CBA45B /* Models */,
+				2CF9DAB32A3B98CE00CBA45B /* ViewModels */,
+				2CF9DAB22A3B98C700CBA45B /* Views */,
 				2CF9DAA12A3B95B600CBA45B /* Preview Content */,
 			);
 			path = "Am I Neuro-Diverse";
@@ -65,6 +110,56 @@
 				2CF9DAA22A3B95B600CBA45B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CF9DAB22A3B98C700CBA45B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9DA9D2A3B95B100CBA45B /* MainView.swift */,
+				2CF9DABE2A3B9AF200CBA45B /* RegisterView.swift */,
+				2CF9DAC22A3B9BC800CBA45B /* LoginView.swift */,
+				2CF9DAB62A3B99BB00CBA45B /* ProfileView.swift */,
+				2CF9DAB82A3B9A6C00CBA45B /* SurveyChoicesView.swift */,
+				2CF9DABA2A3B9AAF00CBA45B /* SurveyQuestionsView.swift */,
+				2CF9DABC2A3B9AE500CBA45B /* ResultsListView.swift */,
+				2CF9DAC02A3B9B3600CBA45B /* ResultsDetailView.swift */,
+				2C4F4D962A3BAEBA004E4112 /* HeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CF9DAB32A3B98CE00CBA45B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9DAC82A3B9C8B00CBA45B /* MainViewViewModel.swift */,
+				2CF9DACA2A3B9C9600CBA45B /* RegisterViewViewModel.swift */,
+				2CF9DACC2A3B9CA000CBA45B /* LoginViewViewModel.swift */,
+				2CF9DACE2A3B9CAD00CBA45B /* ProfileViewViewModel.swift */,
+				2CF9DAD02A3B9CBB00CBA45B /* SurveyChoicesViewViewModel.swift */,
+				2CF9DAD22A3B9CCB00CBA45B /* SurveyQuestionsViewViewModel.swift */,
+				2CF9DAD42A3B9CD700CBA45B /* ResultsListViewViewModel.swift */,
+				2CF9DAD62A3B9CE400CBA45B /* ResultsDetailViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2CF9DAB42A3B98E500CBA45B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9DAC42A3B9C2400CBA45B /* User.swift */,
+				2CF9DAC62A3B9C4F00CBA45B /* SurveyQuestion.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CF9DAB52A3B98FB00CBA45B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9DA9F2A3B95B600CBA45B /* Assets.xcassets */,
+				2CF9DAB02A3B979300CBA45B /* GoogleService-Info.plist */,
+				2CF9DA9B2A3B95B100CBA45B /* Am_I_Neuro_DiverseApp.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +178,11 @@
 			dependencies = (
 			);
 			name = "Am I Neuro-Diverse";
+			packageProductDependencies = (
+				2CF9DAAA2A3B965200CBA45B /* FirebaseAuth */,
+				2CF9DAAC2A3B965200CBA45B /* FirebaseFirestore */,
+				2CF9DAAE2A3B965200CBA45B /* FirebaseFirestoreSwift */,
+			);
 			productName = "Am I Neuro-Diverse";
 			productReference = 2CF9DA982A3B95B100CBA45B /* Am I Neuro-Diverse.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +211,9 @@
 				Base,
 			);
 			mainGroup = 2CF9DA8F2A3B95B100CBA45B;
+			packageReferences = (
+				2CF9DAA92A3B965100CBA45B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 2CF9DA992A3B95B100CBA45B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CF9DAA32A3B95B600CBA45B /* Preview Assets.xcassets in Resources */,
+				2CF9DAB12A3B979400CBA45B /* GoogleService-Info.plist in Resources */,
 				2CF9DAA02A3B95B600CBA45B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +241,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF9DA9E2A3B95B100CBA45B /* ContentView.swift in Sources */,
+				2CF9DAC72A3B9C5000CBA45B /* SurveyQuestion.swift in Sources */,
+				2CF9DACD2A3B9CA000CBA45B /* LoginViewViewModel.swift in Sources */,
+				2CF9DACF2A3B9CAD00CBA45B /* ProfileViewViewModel.swift in Sources */,
+				2CF9DAD72A3B9CE400CBA45B /* ResultsDetailViewViewModel.swift in Sources */,
+				2CF9DAB92A3B9A6C00CBA45B /* SurveyChoicesView.swift in Sources */,
+				2CF9DAD32A3B9CCB00CBA45B /* SurveyQuestionsViewViewModel.swift in Sources */,
+				2CF9DAC92A3B9C8B00CBA45B /* MainViewViewModel.swift in Sources */,
+				2CF9DABD2A3B9AE500CBA45B /* ResultsListView.swift in Sources */,
+				2CF9DAC12A3B9B3600CBA45B /* ResultsDetailView.swift in Sources */,
+				2CF9DAC32A3B9BC800CBA45B /* LoginView.swift in Sources */,
+				2CF9DA9E2A3B95B100CBA45B /* MainView.swift in Sources */,
+				2CF9DACB2A3B9C9600CBA45B /* RegisterViewViewModel.swift in Sources */,
+				2CF9DABF2A3B9AF200CBA45B /* RegisterView.swift in Sources */,
+				2CF9DAB72A3B99BB00CBA45B /* ProfileView.swift in Sources */,
+				2CF9DAD12A3B9CBB00CBA45B /* SurveyChoicesViewViewModel.swift in Sources */,
+				2C4F4D972A3BAEBA004E4112 /* HeaderView.swift in Sources */,
+				2CF9DABB2A3B9AAF00CBA45B /* SurveyQuestionsView.swift in Sources */,
+				2CF9DAC52A3B9C2400CBA45B /* User.swift in Sources */,
+				2CF9DAD52A3B9CD700CBA45B /* ResultsListViewViewModel.swift in Sources */,
 				2CF9DA9C2A3B95B100CBA45B /* Am_I_Neuro_DiverseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +392,7 @@
 				DEVELOPMENT_TEAM = WCLJH7U85A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Am I Neuro-Diverse";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +422,7 @@
 				DEVELOPMENT_TEAM = WCLJH7U85A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Am I Neuro-Diverse";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +463,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2CF9DAA92A3B965100CBA45B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2CF9DAAA2A3B965200CBA45B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CF9DAA92A3B965100CBA45B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2CF9DAAC2A3B965200CBA45B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CF9DAA92A3B965100CBA45B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2CF9DAAE2A3B965200CBA45B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CF9DAA92A3B965100CBA45B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2CF9DA902A3B95B100CBA45B /* Project object */;
 }
